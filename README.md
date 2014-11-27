@@ -1,8 +1,6 @@
 #Introduction to Islandora for the CLGA
 
-Sara Allain, 2014
-
-Content: CC BY 2.0
+Sara Allain, 2014, [CC BY 2.0](http://creativecommons.org/licenses/by/2.0/ca/)
 
 ###Hat-tips
 
