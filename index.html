@@ -14,6 +14,8 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
+		<base target="_blank">
+
 		<link rel="stylesheet" href="css/reveal.min.css">
 		<link rel="stylesheet" href="css/theme/simple.css" id="theme">
 
@@ -47,7 +49,7 @@
 					<br />
 					<h2 class="fancy">Islandora</h2>
 					<br /><br />
-					<small>Sara Allain | @archivalistic</small>
+					<small>Sara Allain | @archivalistic | CC BY 2.5 CA</small>
 					<br />
 					<a href="library.ryerson.ca"><img height="75" src="img/RULA-logo.png" alt="Islandora logo"></a>
 				</section>
@@ -71,7 +73,7 @@
 					<h2>Official Definition</h2>
 					<hr>
 					<p>Islandora is an open-source software framework designed to help institutions and organizations and their audiences collaboratively manage and discover digital assets using a best-practices framework.</p>
-					<small>- <a href="http://islandora.ca/about">islandora.ca/about</a></small>
+					<small>- <a href="http://islandora.ca/about">About Islandora</a></small>
 				</section>
 
 				<section class="body">
@@ -93,7 +95,7 @@
 					<p>This means that we get to control, at a local level, how our software is used.</p>
 					<img height="350" src="img/xkcd-open.png">
 					<br />
-					<small>Russell Munroe, <a href="http://xkcd.com/743/">xkcd #743, <i>Infrastructures</i></a></small>
+					<small>- Randall Munroe, <a href="http://xkcd.com/743/">xkcd #743, <i>Infrastructures</i></a></small>
 				</section>
 
 				<section class="body">
@@ -164,7 +166,7 @@
 						<br />
 						<a href="https://wiki.duraspace.org/display/ISLANDORA714/PDF+Solution+Pack">PDF</a> &middot
 						<a href="https://wiki.duraspace.org/display/ISLANDORA714/Video+Solution+Pack">Video</a> &middot
-						<a href="https://wiki.duraspace.org/display/ISLANDORA714/Web+Archive+Solution+Pack">Web ARChive</a>
+						<a href="https://wiki.duraspace.org/display/ISLANDORA714/Web+Archive+Solution+Pack">Web Archive</a>
 					</p>
 				</section>
 
@@ -173,70 +175,105 @@
 					<hr>
 					<p>Modules that let you perform various actions on that data and/or the attached metadata, such as:</p>
 					<p class="center">
-						<a href="https://wiki.duraspace.org/display/ISLANDORA714/How+to+Batch+Ingest+Files">Batch ingestion</a>
-						<br />
+						<a href="https://wiki.duraspace.org/display/ISLANDORA714/How+to+Batch+Ingest+Files">Batch ingests</a>&middot
 						<a href="https://wiki.duraspace.org/display/ISLANDORA714/Islandora+Viewers">Alternative content displays</a>
-						<br />
-						<a href="https://wiki.duraspace.org/display/ISLANDORA714/Image+Annotation">Image annotation</a>
 						<br />
 						Preservation (<a href="https://wiki.duraspace.org/display/ISLANDORA714/Islandora+Checksum">Checksum</a>, <a href="https://wiki.duraspace.org/display/ISLANDORA714/Islandora+FITS">FITS</a>, <a href="https://wiki.duraspace.org/display/ISLANDORA714/Islandora+BagIt">BagIt</a>, <a href="https://wiki.duraspace.org/display/ISLANDORA714/Islandora+PREMIS">PREMIS</a>, etc.)
 						<br />
+						<a href="https://wiki.duraspace.org/display/ISLANDORA714/Image+Annotation">Image annotation</a>&middot
 						<a href="https://wiki.duraspace.org/display/ISLANDORA714/Islandora+OCR">Optical character recognition</a>
 						<br />
-						And many more!
+						And much more!
 					</p>
 				</section>
 
 				<section class="body">
 					<h2>So What's Inside?</h2>
 					<hr>
-					<p>A discovery layer that provides robust searching using a suite of fancy tools like Solr, GSearch, and </p>
-				</section>
-
-				<section class="body">
-					<h2>So What's Inside?</h2>
-					<hr>
-					<p>Extensions </p>
+					<p>A discovery layer that provides robust searching and indexing using <a href="https://wiki.duraspace.org/pages/viewpage.action?pageId=64326523">Solr and GSearch</a>. </p>
 				</section>
 
 				<section class="body">
 					<h2>How Islandora Works</h2>
 					<hr>
-					<p>Every piece of content in Islandora is an object - a collection, an image, the page of a manuscript. Objects can contain other objects.</p>
+					<p>Every piece of content in Islandora is an object - a collection, an image, the page of a manuscript. Objects can be containers for other objects.</p>
 					<img class="right" height="400" src="img/objects.png">
 				</section>
 
 				<section class="body">
 					<h2>How Islandora Works</h2>
 					<hr>
-					<p>Each object contains several datastreams that describe the object.</p>
+					<p>Each object contains several datastreams that describe the object or add elements, like a thumbnail, to create functionality.</p>
 					<img class="right" height="400" src="img/datastreams.png">
 				</section>
 
 				<section class="body">
 					<h2>How Islandora Works</h2>
 					<hr>
-					<p>Metadata is the information about the object - the data about the data. This can be descriptive, technical, or refer to relationships that the object has with other objects in the repository.</p>
-					<p>Islandora was built to use <A href="http://www.loc.gov/standards/mods/">MODS</a>, a flexible schema developed by the Library of Congress for books.</p>
+					<p>Objects relate to each other in a number of ways. An object can be part of a collection (hierarchical) or we can define flat (graphical) relationships.</p>
+					<img class="right" height="400" src="img/relationships.png">
 				</section>
 
 				<section class="body">
 					<h2>How Islandora Works</h2>
 					<hr>
-					<p>Objects relate to each other in a number of ways. An object can be part of a collection (a hierarchical relationship) or we can define.</p>
+					<p>Metadata is information about the object - the data about the data. This can be descriptive, technical, or refer to relationships that the object has with other objects in the repository.</p>
+					<p>Islandora was built to use <a href="http://www.loc.gov/standards/mods/">MODS</a>, a flexible schema developed by the Library of Congress for books.</p>
 				</section>
 
 				<section class="body">
 					<h2>How Islandora Works</h2>
 					<hr>
-					<p>Each object contains several datastreams that describe the object.</p>
-					<img class="right" height="400" src="img/datastreams.png">
+					<p>Islandora makes it really easy for you to create metadata by providing handy forms!</p>
+					<img class="right" height="400" src="img/forms.png">
 				</section>
 
 				<section class="body">
-					<h2>In Conclusion</h2>
+					<h2>What We Do</h2>
 					<hr>
-					<p></p>
+					<p>We* take care of the technical side of things - we'll configure the repository, set up any solution packs, modules, and dependencies that you need, and keep the code up to date and working properly.</p>
+					<br />
+					<small>*In this case, "we" means the University of Toronto Libraries' Information Technology Services.</small>
+				</section>
+
+				<section class="body">
+					<h2>What We Do</h2>
+					<hr>
+					<p>We'll* also train you on digitizing content for ingestion into Islandora and how to create metadata using the MODS forms.</p>
+					<br />
+					<small>*Here, "we" means the team here at Ryerson Library.</small>
+				</section>
+
+				<section class="body">
+					<h2>What You Do</h2>
+					<hr>
+					<p>You add the content! You select items from the archives to digitize, you come up with consistent ways of turning your archival information into MODS, and you upload the items into Islandora.</p>
+				</section>
+
+				<section class="body">
+					<h2>Next Steps</h2>
+					<hr>
+					<ul>
+						<li>Digitization plan: new content vs. migration, strategic areas of focus</li>
+						<li>Local metadata: how will things like subjects and archival locations be entered?</li>
+						<li>Website: any customizations need to be discussed with UofT</li>
+					</ul>
+				</section>
+
+				<section class="body">
+					<h2>Hat-Tips</h2>
+					<hr>
+					<ul>
+						<li>Kirsta Stapelfeldt and Nick Ruest's <a href="http://yorkspace.library.yorku.ca/xmlui/handle/10315/28006">presentation from the OCUL Digital Curation Summit 2014</a> (as well as many, many more by those two and others)</li>
+						<li>The <a href="http://islandora.ca">Islandora</a> and <a href="http://www.discoverygarden.ca/">Discovery Garden</a> websites, blogs, documentation, and Github repositories</li>
+						<li></li>
+					</ul>
+				</section>
+
+				<section class="body">
+					<h2>Fine Print</h2>
+					<hr>
+					<p>This presentation is licensed CC BY 2.5 CA meaning that it can be copied, redistributed, remixed, transformed, and built upon for any purpose as long as proper attribution is given.</p>
 				</section>
 
 			</div>
