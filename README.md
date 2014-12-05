@@ -2,8 +2,6 @@
 
 Presentation content by Sara Allain, 2014, [CC BY 2.5 CA](http://creativecommons.org/licenses/by/2.5/ca/)
 
-##Hat-tips
-
 I am indebted to many others who have presented introductions to Islandora - namely, [Kirsta Stapelfeldt](https://github.com/kstapelfeldt) and [Nick Ruest](https://github.com/ruebot), as well as documentation provided by the Islandora Foundation, the community, and [Discovery Garden](http://www.discoverygarden.ca/).
 
 # reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.png?branch=master)](https://travis-ci.org/hakimel/reveal.js)
